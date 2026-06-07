@@ -2,6 +2,13 @@
 
 Cloudflare Worker 随机图片 API，数据来自 [Wallhaven](https://wallhaven.cc/)。默认只返回 SFW 图片，支持按关键词、分类、分辨率、比例、颜色和随机 seed 过滤。
 
+## 一键部署
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/yanpuzhen/img-api)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fyanpuzhen%2Fimg-api)
+
+Cloudflare Workers 是本项目的原生部署目标。Vercel 按钮会进入 Vercel 的仓库导入部署流程；如需 NSFW 图片，请在对应平台配置 `WALLHAVEN_API_KEY` 环境变量或密钥。
+
 ## API
 
 ```text
