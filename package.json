@@ -1,0 +1,19 @@
+{
+  "name": "img-api",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker random wallpaper API backed by Wallhaven.",
+  "license": "GPL-2.0-only",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260603.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.15",
+    "wrangler": "^4.87.0"
+  }
+}

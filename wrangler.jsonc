@@ -1,0 +1,13 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "img-api",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-06-07",
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "WALLHAVEN_DEFAULT_CATEGORIES": "111",
+    "WALLHAVEN_DEFAULT_PURITY": "100"
+  }
+}
